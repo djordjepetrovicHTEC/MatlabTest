@@ -9,10 +9,10 @@
           uses: actions/checkout@v4
         - name: Set up MATLAB
           uses: matlab-actions/setup-matlab@v2.2.0
-          with: # MATLAB release to set up (R2021a or later)
-            release: # optional, default is latest
+          # with: MATLAB release to set up (R2021a or later)
+            # release: optional, default is latest
             # Products to set up in addition to MATLAB, specified as a list of product names separated by spaces
-            products: # optional, default is 
+            # products: optional, default is 
             # Option to enable caching with GitHub Actions, specified as false or true
-            cache: # optional
+            # cache: optional
           
